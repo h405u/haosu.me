@@ -23,24 +23,25 @@ header {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 20px;
-  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-  justify-content: center; /* Center items horizontally */
-  margin-bottom: 30px;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .photo-container {
-  width: 33%;
+  max-width: 300px;
   text-align: center;
   flex-shrink: 0;
 }
 
 .photo-container img {
   width: 100%;
-  max-width: 300px; /* Limit maximum width of the image */
   height: auto;
   display: block;
-  margin: 0 auto 5px; /* Center the image */
+  margin: 0 auto;
 }
 
 .photo-container figcaption {
